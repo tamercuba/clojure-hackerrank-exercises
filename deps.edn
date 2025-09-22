@@ -1,3 +1,4 @@
 {:paths   ["src"]
  :deps    {org.clojure/clojure {:mvn/version "1.11.1"}}
- :aliases {:perimeter {:main-opts ["-m" "perimeter"]}}}
+ :aliases {:perimeter {:main-opts ["-m" "perimeter"]}
+           :function {:main-opts ["-m" "is-function"]}}}
